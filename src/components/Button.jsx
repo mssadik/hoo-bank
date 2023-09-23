@@ -1,10 +1,16 @@
 
-const Button = ({styles}) => {
+const Button = ({ styles }) => {
     return (
-        <div>
-            <button type="button" className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}>Get Started</button>
-        </div>
+      <div>
+        <button
+          type="button"
+          className={`py-4 px-6 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 focus:outline-none font-poppins font-medium text-white text-[18px] rounded-[10px] shadow-md ${styles}`}
+        >
+          Get Started
+        </button>
+      </div>
     );
-};
-
-export default Button;
+  };
+  
+  export default Button;
+  
